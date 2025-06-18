@@ -1,3 +1,15 @@
+.gallery-intro {
+  padding: 20px;
+  background-color: #ec8864;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 800px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
 .gallery-cards {
   padding: 25px;
   display: flex;
@@ -28,17 +40,4 @@
   margin: 10px 0 0;
   font-size: 1em;
   color: #fff;
-}
-
-.center-card {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #d9a66b; /* Forskjellig farge for å skille midterste kort */
-}
-
-.center-card p {
-  margin: 0;
-  font-size: 1.2em;
-  font-weight: bold;
 }
