@@ -1,0 +1,86 @@
+.feedback-form {
+  padding: 25px;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.feedback-form input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  /* Grå placeholder-tekst */
+  color: #333; /* Normal tekstfarge */
+}
+
+.feedback-form input::placeholder {
+  color: #999; /* Grå farge for placeholder */
+  opacity: 1; /* Sikrer at placeholder vises tydelig */
+}
+
+.rating {
+  margin-bottom: 15px;
+  font-size: 1.5em;
+  color: #ffef5e; /* Gul farge */
+}
+
+.rating span {
+  cursor: pointer;
+  display: inline-block;
+  width: 21.79px; /* Bredde fra Figma */
+  height: 22px; /* Høyde fra Figma */
+  line-height: 22px; /* Sentrering av tekst */
+  text-align: center;
+  position: relative;
+  -webkit-text-stroke: 1px #191919; /* 1-piksel svart border rundt stjernen */
+  -webkit-text-fill-color: #ffef5e; /* Sikrer at fargen beholdes */
+  text-shadow: none; /* Fjerner eventuell overlapping */
+}
+
+.feedback-cards {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.feedback-card {
+  background-color: #ec8864;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.feedback-card h3 {
+  margin: 0 0 10px;
+}
+
+.feedback-card p {
+  margin: 5px 0;
+}
+
+.feedback-card .rating {
+  margin-top: 10px;
+  color: #ffef5e; /* Gul farge for konsistens */
+}
+
+.feedback-card .rating span {
+  display: inline-block;
+  width: 21.79px; /* Bredde fra Figma */
+  height: 22px; /* Høyde fra Figma */
+  line-height: 22px; /* Sentrering av tekst */
+  text-align: center;
+}

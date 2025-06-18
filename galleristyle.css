@@ -1,0 +1,44 @@
+.gallery-cards {
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.gallery-card {
+  background-color: #ec8864;
+  padding: 15px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 300px;
+  margin-bottom: 20px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.gallery-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.gallery-card p {
+  margin: 10px 0 0;
+  font-size: 1em;
+  color: #fff;
+}
+
+.center-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #d9a66b; /* Forskjellig farge for å skille midterste kort */
+}
+
+.center-card p {
+  margin: 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}

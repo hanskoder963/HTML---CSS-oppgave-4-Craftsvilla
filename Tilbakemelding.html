@@ -1,11 +1,145 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
   <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="module" src="script.js" defer></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Craftsvilla</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Happy+Monkey&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>CRAFTSVILLA - Tilbakemelding</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="Tilbakemeldingstyle.css" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="logo">
+        <img
+          src="/Bilder/Logo frame.svg"
+          alt="CRAFTSVILLA Logo"
+          class="logo-img"
+        />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="Hjemmeside.html" class="btn nav-btn">Hjemmeside</a></li>
+          <li><a href="Booking.html" class="btn nav-btn">Booking</a></li>
+          <li>
+            <a href="Tilbakemelding.html" class="btn nav-btn">Tilbakemelding</a>
+          </li>
+          <li><a href="Galleri.html" class="btn nav-btn">Galleri</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="feedback-form">
+        <h2>Gi oss din tilbakemelding</h2>
+        <form>
+          <label for="name">Navn:</label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Skriv inn navn her..."
+          />
+
+          <label for="email">E-post:</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Skriv inn e-post her..."
+          />
+
+          <label for="rating">Vurdering (0-5 stjerner):</label>
+          <div class="rating">
+            <span>★</span><span>★</span><span>★</span><span>★</span
+            ><span>★</span>
+          </div>
+
+          <button type="submit" class="btn hero-btn">
+            Send tilbakemelding
+          </button>
+        </form>
+      </section>
+
+      <section class="feedback-cards">
+        <div class="feedback-card">
+          <h3>John Doe</h3>
+          <p><strong>Kunstform:</strong> Mosaikk Kunst</p>
+          <p><strong>Kommentar:</strong> Veldig gøy med familien, anbefales!</p>
+          <div class="rating">★★★★☆</div>
+        </div>
+        <div class="feedback-card">
+          <h3>Jane Smith</h3>
+          <p><strong>Kunstform:</strong> Akvarellmaling</p>
+          <p><strong>Kommentar:</strong> Fantastisk avslappende med venner.</p>
+          <div class="rating">★★★★★</div>
+        </div>
+        <div class="feedback-card">
+          <h3>Mark Lee</h3>
+          <p><strong>Kunstform:</strong> Lerretsmaling</p>
+          <p>
+            <strong>Kommentar:</strong> Litt utfordrende, men morsomt resultat!
+          </p>
+          <div class="rating">★★★☆☆</div>
+        </div>
+        <div class="feedback-card">
+          <h3>Sarah Brown</h3>
+          <p><strong>Kunstform:</strong> Mosaikk Kunst</p>
+          <p><strong>Kommentar:</strong> Perfekt aktivitet for teambuilding.</p>
+          <div class="rating">★★★★☆</div>
+        </div>
+        <div class="feedback-card">
+          <h3>Tom Wilson</h3>
+          <p><strong>Kunstform:</strong> Akvarellmaling</p>
+          <p><strong>Kommentar:</strong> Elsket fargene, vil komme igjen!</p>
+          <div class="rating">★★★★★</div>
+        </div>
+        <div class="feedback-card">
+          <h3>Emma Davis</h3>
+          <p><strong>Kunstform:</strong> Lerretsmaling</p>
+          <p>
+            <strong>Kommentar:</strong> Litt vanskelig, men instruktøren var
+            hjelpsom.
+          </p>
+          <div class="rating">★★☆☆☆</div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section class="contact">
+        <ul>
+          <li><p>Kontakt oss:</p></li>
+          <li><p>Email: CraftsVille.org@gmail.com</p></li>
+          <li><p>Social media: →</p></li>
+          <li><p>Phone: 67843754</p></li>
+        </ul>
+        <div class="social-icons">
+          <a href="#"
+            ><img src="/Bilder/Socialmediaicons/facebook.svg" alt="Facebook"
+          /></a>
+          <a href="#"
+            ><img src="/Bilder/Socialmediaicons/instagram.svg" alt="Instagram"
+          /></a>
+          <a href="#"
+            ><img src="/Bilder/Socialmediaicons/youtube.svg" alt="YouTube"
+          /></a>
+          <a href="#"
+            ><img src="/Bilder/Socialmediaicons/tiktok.svg" alt="TikTok"
+          /></a>
+          <a href="#"
+            ><img src="/Bilder/Socialmediaicons/twitter.svg" alt="Twitter"
+          /></a>
+          <a href="#"
+            ><img src="/Bilder/Socialmediaicons/pintrest.svg" alt="Pinterest"
+          /></a>
+        </div>
+      </section>
+    </footer>
+  </body>
 </html>
